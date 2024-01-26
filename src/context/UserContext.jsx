@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { createContext, useState } from 'react'
+import { createContext, useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
@@ -11,6 +11,24 @@ export const UserProvider = ({ children }) => {
   const [activeUser, setActiveUser] = useState()
 
   const navigate = useNavigate()
+
+
+  useEffect(() => {
+    
+    const id = localStorage.getItem('TOKEN')
+    if (id) {
+      
+      axios
+        .get(`/users/${id}`)
+        .then((res) => {
+          setActiveUser(res.data)
+        })
+        .catch((err) => toast.error('Kullanıcı bilgier alınamadı'));
+    } else {
+      navigate('/login');
+    }
+  }, []);
+
 
   //hesap olusturma
   const signup = user => {
@@ -30,7 +48,18 @@ export const UserProvider = ({ children }) => {
   }
   //hesaba griş yapma
   const login = (user) =>{
-    
+    axios.get(`/users?name=${user.name}&password=${user.password}`)
+.then((res) => {
+  if (res.data.length === 0) {
+    toast.error('Bilgilerinizle Eşlesen Kullanıcı Bulunamadı')
+  } else{
+    setActiveUser(res.data[0])
+    localStorage.setItem('TOKEN', res.data[0].id)
+    navigate('/')
+    toast.success('Hesaba Giriş Yapılıyor')
+  }
+} )
+.catch(err => console.log(err))
   }
 
 

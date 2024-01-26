@@ -20,6 +20,13 @@
       "email": "asdfasd@gmail.com",
       "password": "123456",
       "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706094084/flow/gjeh6q06cogvokzcrlcf.jpg"
+    },
+    {
+      "id": "d36c459c-6049-466f-ae9a-f1b4dd601d31",
+      "name": "caglar",
+      "email": "caglar@gmail.com",
+      "password": "deneme123",
+      "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706301787/flow/gzgwbvrvloz2soo0g0qm.jpg"
     }
   ]
 }

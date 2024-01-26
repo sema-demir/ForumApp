@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import InputField from "../../Components/inputField";
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
 const Login = ( ) => {
+    const { login } = useContext(UserContext)
 const handleSubmit = (e) => {
     e.preventDefault()
 
    const form = new FormData(e.target)
   const user = Object.fromEntries(form.entries())
 
-  console.log(user)
+  login(user)
 }
 
     return (
