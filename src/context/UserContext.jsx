@@ -33,8 +33,10 @@ export const UserProvider = ({ children }) => {
   //hesap olusturma
   const signup = user => {
     axios.post('/users', user).then(() => {
+
       //kullanıcının id sini locale kaydet
       localStorage.setItem('TOKEN', user.id)
+
       //aktif kullanıcının stateni güncelle
 
       setActiveUser(user)
@@ -62,10 +64,36 @@ export const UserProvider = ({ children }) => {
 .catch(err => console.log(err))
   }
 
+  //kullanıcı hesabından cık
+const logout= () => {
+  localStorage.removeItem('TOKEN')
+
+  //aktif kullanıcıyı sıfırla
+setActiveUser(null)
+navigate('/login')
+
+}
+  //kullanıcı hesabı sil
+const deleteAccount = () => {
+  axios.delete(`/users/${activeUser.id}`)
+  .then(() => {
+    logout();
+    toast.warning('Hesabınız Kaldırıldı')
+  })
+}
+
+
+  //kullanıcı hesabı güncelle
+
+
+
+
 
   return (
-    <UserContext.Provider value={{ activeUser, signup, login }}>
+    <UserContext.Provider value={{ activeUser, signup, login, logout, deleteAccount }}>
         {children}
         </UserContext.Provider>
   )
 }
+
+

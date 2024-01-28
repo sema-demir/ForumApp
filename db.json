@@ -1,25 +1,11 @@
 {
   "users": [
     {
-      "name": "aasssd",
-      "email": "sema@sdasd.com",
-      "password": "asdfggh",
-      "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706072470/flow/tm1kmj4fk0a9n46axsg3.jpg",
-      "id": "c629f6a0-b63c-4f2f-8c25-cb6204a571ba"
-    },
-    {
       "id": "28c6ad93-b5f0-45b7-abc3-cb7bcbfe5321",
       "name": "sema",
       "email": "sema@gmail.com",
       "password": "deneme123",
       "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706093906/flow/vcc3udvolps9fnq6xcpj.jpg"
-    },
-    {
-      "id": "8a8d66ee-275e-494b-9cf3-53e391c0871f",
-      "name": "betül",
-      "email": "asdfasd@gmail.com",
-      "password": "123456",
-      "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706094084/flow/gjeh6q06cogvokzcrlcf.jpg"
     },
     {
       "id": "d36c459c-6049-466f-ae9a-f1b4dd601d31",
