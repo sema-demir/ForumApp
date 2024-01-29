@@ -1,9 +1,11 @@
 import { useContext, useState } from "react";
 import { UserContext } from "../../context/UserContext";
 import ConfirmModal from "../../Components/ConfirmModal";
+import ResetModal from "./ResetModal";
 
 const ProfilePage = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [isReset, setIsReset] = useState(false)
 
 
   const { activeUser, deleteAccount } = useContext(UserContext);
@@ -25,7 +27,7 @@ const ProfilePage = () => {
             <span className="font-bold">E-posta: </span>
             <span className="text-xl">{activeUser?.email}</span>
           </p>
-          <button
+          <button onClick={() => setIsReset(true) }
             
             className="bg-blue-600 rounded px-10 py-2 text-base font-normal hover:bg-blue-500"
           >
@@ -44,8 +46,12 @@ const ProfilePage = () => {
       text={"Hesabını Sil"} 
       close={() => setIsOpen(false)}
       confirm={deleteAccount}
-
       />
+<ResetModal 
+isOpen={isReset}  
+close = {() => setIsReset(false)}
+confirm= {() => {}}
+/>
     </div>
   );
 };
