@@ -1,5 +1,16 @@
+import  Form  from "./Form";
+import Listposts from "./Listposts";
+
 const MainPage = () => {
-  return <h1>Anasayfa</h1>;
+  return (
+    <>
+    <Form />
+    
+    
+    
+    <Listposts />
+    </>
+  )
 };
 
 export default MainPage;

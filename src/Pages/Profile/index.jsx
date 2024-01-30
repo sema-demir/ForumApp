@@ -8,7 +8,7 @@ const ProfilePage = () => {
   const [isReset, setIsReset] = useState(false)
 
 
-  const { activeUser, deleteAccount } = useContext(UserContext);
+  const { activeUser, deleteAccount, updatePassword } = useContext(UserContext);
 
   return (
     <div className="h-[85vh]">
@@ -50,7 +50,8 @@ const ProfilePage = () => {
 <ResetModal 
 isOpen={isReset}  
 close = {() => setIsReset(false)}
-confirm= {() => {}}
+confirm= {updatePassword}
+
 />
     </div>
   );
