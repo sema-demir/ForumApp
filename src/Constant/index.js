@@ -1,0 +1,16 @@
+export const categories = [
+    { title: 'Genel Tartışma', color: '#FF5733' },
+    { title: 'Teknoloji', color: '#3399FF' },
+    { title: 'Eğitim ve Akademik Konular', color: '#33FF57' },
+    { title: 'Hobi ve İlgi Alanları', color: '#FF33FF' },
+    { title: 'Sağlık ve İyilik Hali', color: '#33FFFF' },
+    { title: 'İş ve Kariyer', color: '#FF2233' },
+    { title: 'Eğlence ve Kültür', color: '#FF3366' },
+    { title: 'Moda ve Güzellik', color: '#3366FF' },
+    { title: 'Aile ve İlişkiler', color: '#6633FF' },
+    { title: 'Teknoloji ve Bilim', color: '#663333' },
+    { title: 'Spor ve Rekabet', color: '#FF6633' },
+    { title: 'Ev ve Bahçe', color: '#33FF99' },
+    { title: 'Seyahat ve Gezi', color: '#9933FF' },
+    { title: 'Politika ve Toplum', color: '#33FFCC' },
+  ];

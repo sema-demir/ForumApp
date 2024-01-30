@@ -1,13 +1,36 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { BiSolidDownArrowCircle } from "react-icons/bi";
 import { AiFillCloseCircle, AiFillCheckCircle } from "react-icons/ai";
-
+import  {categories} from '../../Constant'
+import { v4 } from "uuid";
+import { UserContext } from "../../context/UserContext";
 const Form = () => {
+    const {activeUser} = useContext(UserContext)
+    console.log(activeUser)
+    //gösterilecek input level state
   const [inputLevel, setInputLevel] = useState(0);
-
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [category, setCategory] = useState("");
+
+  //gönderme işleminde calısacak
+  const handleSubmit = () => {
+   // actif kullanıcının sifresini objeden kaldır
+   const author = {...activeUser }
+  delete author.password
+
+    //yeni gönderinin verisini hazırla
+const newPost ={
+    id: v4(),
+    title, 
+    content, 
+    category,
+    date: new Date(),
+    comments: [],
+    author,
+  }
+  
+}
   return (
     <div className="mt-5 flex flex-col gap-6">
       {/* 0.level */}
@@ -64,13 +87,17 @@ const Form = () => {
             className="w-full rounded p-1 text-black shadow col-span-4"
             type="text"
           >
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+           {
+            categories.map((i) => (
+                <option key={i.title}>{i.title}</option>
+            ))
+           }
           </select>
 
           <div className="flex">
-            <AiFillCheckCircle className="text-2xl cursor-pointer hover:text-gray-400" />
+            <AiFillCheckCircle
+            onClick={handleSubmit}
+             className="text-2xl cursor-pointer hover:text-gray-400" />
             <AiFillCloseCircle
               onClick={() => {
                 setInputLevel(1);
