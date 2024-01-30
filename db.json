@@ -13,11 +13,158 @@
       "email": "berra@gmail.com",
       "password": "12345",
       "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+    },
+    {
+      "id": "fe210fe2-dbcb-4428-a980-370a3d9633f6",
+      "name": "betul",
+      "email": "betul@gmail.com",
+      "password": "12345",
+      "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706641397/flow/dgd0zucqaadyoadnkj8g.jpg"
     }
   ],
   "posts": [
     {
-      
+      "id": "0cf1"
+    },
+    {
+      "id": "151f2e53-941f-4c7b-9dc2-c0135196bed0",
+      "title": "Merhaba",
+      "content": "ben berra slm herkese",
+      "category": "Hobi ve İlgi Alanları",
+      "date": "2024-01-30T14:13:41.862Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "cf12f78c-207e-42cd-bce8-a826ace47b44",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:30.831Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "003e22d0-cec6-424c-94ca-2b7b9bf4c7b0",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:32.343Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "8235bab7-f921-406c-bc01-88c17d6f1329",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:33.037Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "89a17874-4c94-4ee3-8985-6893faf52fd1",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:33.253Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "a98ab3cd-9727-481e-bf07-9730c9274256",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:33.630Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "a9d0359d-0b5b-4cd2-b0f3-3c12542574ec",
+      "title": "asssss",
+      "content": "xxxxxx",
+      "category": "Teknoloji",
+      "date": "2024-01-30T14:17:33.929Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "1f46ec08-8616-4b68-bfd2-c61687d29d5f",
+      "title": "aaaaa",
+      "content": "aaaaaa",
+      "category": "",
+      "date": "2024-01-30T17:44:03.986Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "1e2081f2-7bb7-49f9-95dc-5ebf9ba66f75",
+      "title": "aaaaa",
+      "content": "asssss",
+      "category": "Teknoloji",
+      "date": "2024-01-30T19:01:06.099Z",
+      "comments": [],
+      "author": {
+        "id": "23c9778b-312f-4090-af98-7e7b4c6c1c76",
+        "name": "berra",
+        "email": "berra@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706593602/flow/e0hefjriunstggn9rfkg.jpg"
+      }
+    },
+    {
+      "id": "9806a664-7d03-4c9e-93c5-8fdd93488be3",
+      "title": "merhaba ben betül",
+      "content": "form.jsx. de sorun yasıyorum yardımcı olurmusunuz rica etsem",
+      "category": "Teknoloji",
+      "date": "2024-01-30T19:04:25.632Z",
+      "comments": [],
+      "author": {
+        "name": "betul",
+        "email": "betul@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706641397/flow/dgd0zucqaadyoadnkj8g.jpg",
+        "id": "fe210fe2-dbcb-4428-a980-370a3d9633f6"
+      }
     }
   ]
 }

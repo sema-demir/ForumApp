@@ -1,12 +1,16 @@
 import { useContext, useState } from "react";
 import { BiSolidDownArrowCircle } from "react-icons/bi";
 import { AiFillCloseCircle, AiFillCheckCircle } from "react-icons/ai";
+import { toast } from 'react-toastify';
 import  {categories} from '../../Constant'
 import { v4 } from "uuid";
 import { UserContext } from "../../context/UserContext";
+import { PostContext } from "../../context/PostContext";
 const Form = () => {
     const {activeUser} = useContext(UserContext)
-    console.log(activeUser)
+    const {addPost} = useContext(PostContext)
+
+    //console.log(activeUser)
     //gösterilecek input level state
   const [inputLevel, setInputLevel] = useState(0);
   const [title, setTitle] = useState("");
@@ -29,6 +33,8 @@ const newPost ={
     comments: [],
     author,
   }
+  //gönderiyi olustur
+  addPost(newPost)
   
 }
   return (

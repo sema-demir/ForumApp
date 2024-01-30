@@ -1,9 +1,18 @@
 import axios from "axios";
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 
  export const PostContext = createContext()
- export function PostProvider ({children}) {
+ export function PostProvider ({ children }) {
     const [posts, setPosts] = useState([])
+
+
+    //kullanıcı sayfaya girince verileri al
+    useEffect(() => {
+        axios.get('/posts')
+        .then((res) => setPosts(res.data))
+    }, [])
+
+
 
     //post gönderme
     const addPost = (newPost) => {
@@ -23,7 +32,7 @@ setPosts([newPost, ...posts])
     //post güncelleme
 
     return (
-        <PostContext.Provider value={{ posts }}>
+        <PostContext.Provider value={{ posts, addPost }}>
             {children}
         </PostContext.Provider>
     )
