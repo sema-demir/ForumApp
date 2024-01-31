@@ -1,8 +1,25 @@
-# React + Vite
+<h1>Forum App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is a forum application developed using various libraries such as React, React Router, json-server, react-icons, react-toastify, uuid, axios, moment, and tailwindcss.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Users can create new accounts and log into existing ones.
+- Posts can be categorized and viewed accordingly.
+- Users can create posts and comment on them.
+- Profile editing and password updating functionalities are available.
+- Users can delete their own posts.
+- The user interface is designed to be modern and responsive using Tailwindcss.
+
+## Used Libraries
+
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [json-server](https://github.com/typicode/json-server)
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [react-toastify](https://fkhadra.github.io/react-toastify/)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [axios](https://axios-http.com/)
+- [moment](https://momentjs.com/)
+- [tailwindcss](https://tailwindcss.com/)
