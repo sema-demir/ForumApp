@@ -20,16 +20,20 @@
       "email": "betul@gmail.com",
       "password": "12345",
       "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706641397/flow/dgd0zucqaadyoadnkj8g.jpg"
+    },
+    {
+      "id": "75078d97-f129-4b2d-a6a6-b9fb4d6479e2",
+      "name": "sema",
+      "email": "sema@gmail.com",
+      "password": "123456",
+      "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706907921/flow/y6xd5zdqusg88wpeldwd.jpg"
     }
   ],
   "posts": [
     {
-      "id": "0cf1"
-    },
-    {
       "id": "151f2e53-941f-4c7b-9dc2-c0135196bed0",
       "title": "Merhaba",
-      "content": "ben berra slm herkese",
+      "content": "Ben berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkeseBen berra slm herkese ",
       "category": "Hobi ve İlgi Alanları",
       "date": "2024-01-30T14:13:41.862Z",
       "comments": [],
@@ -128,7 +132,7 @@
       "id": "1f46ec08-8616-4b68-bfd2-c61687d29d5f",
       "title": "aaaaa",
       "content": "aaaaaa",
-      "category": "",
+      "category": "Teknoloji",
       "date": "2024-01-30T17:44:03.986Z",
       "comments": [],
       "author": {
@@ -164,6 +168,76 @@
         "email": "betul@gmail.com",
         "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706641397/flow/dgd0zucqaadyoadnkj8g.jpg",
         "id": "fe210fe2-dbcb-4428-a980-370a3d9633f6"
+      }
+    },
+    {
+      "id": "1a788549-0e32-4abe-a10c-c9c1f30bd342",
+      "title": "merhaba",
+      "content": "aaaaaaa",
+      "category": "Sağlık ve İyilik Hali",
+      "date": "2024-01-31T15:37:34.745Z",
+      "comments": [],
+      "author": {
+        "id": "fe210fe2-dbcb-4428-a980-370a3d9633f6",
+        "name": "betul",
+        "email": "betul@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706641397/flow/dgd0zucqaadyoadnkj8g.jpg"
+      }
+    },
+    {
+      "id": "15c1ffcf-5d0e-4cfd-bf3f-394e72c59955",
+      "title": "merhaba",
+      "content": "slm benım jsonda sorun var",
+      "category": "Eğitim ve Akademik Konular",
+      "date": "2024-02-02T21:05:59.550Z",
+      "comments": [],
+      "author": {
+        "name": "sema",
+        "email": "sema@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706907921/flow/y6xd5zdqusg88wpeldwd.jpg",
+        "id": "75078d97-f129-4b2d-a6a6-b9fb4d6479e2"
+      }
+    },
+    {
+      "id": "a87a53b9-736f-458d-8bd0-ec042a6c5c24",
+      "title": "eeeee",
+      "content": "fffff",
+      "category": "Teknoloji",
+      "date": "2024-02-02T21:31:49.476Z",
+      "comments": [],
+      "author": {
+        "id": "75078d97-f129-4b2d-a6a6-b9fb4d6479e2",
+        "name": "sema",
+        "email": "sema@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706907921/flow/y6xd5zdqusg88wpeldwd.jpg"
+      }
+    },
+    {
+      "id": "4fb7bdb8-eefd-4b4a-8c5d-7e211007a2c4",
+      "title": "eeeee",
+      "content": "fffff",
+      "category": "Teknoloji",
+      "date": "2024-02-02T21:31:52.684Z",
+      "comments": [],
+      "author": {
+        "id": "75078d97-f129-4b2d-a6a6-b9fb4d6479e2",
+        "name": "sema",
+        "email": "sema@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706907921/flow/y6xd5zdqusg88wpeldwd.jpg"
+      }
+    },
+    {
+      "id": "23d88511-4cc3-4088-9af4-dc1e81b4b783",
+      "title": "assss",
+      "content": "dddddd",
+      "category": "Sağlık ve İyilik Hali",
+      "date": "2024-02-02T21:34:14.064Z",
+      "comments": [],
+      "author": {
+        "id": "75078d97-f129-4b2d-a6a6-b9fb4d6479e2",
+        "name": "sema",
+        "email": "sema@gmail.com",
+        "image": "http://res.cloudinary.com/dgyn5ej6p/image/upload/v1706907921/flow/y6xd5zdqusg88wpeldwd.jpg"
       }
     }
   ]

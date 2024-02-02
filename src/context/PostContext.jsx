@@ -4,8 +4,6 @@ import { createContext, useEffect, useState } from "react";
  export const PostContext = createContext()
  export function PostProvider ({ children }) {
     const [posts, setPosts] = useState([])
-
-
     //kullanıcı sayfaya girince verileri al
     useEffect(() => {
         axios.get('/posts')
@@ -28,6 +26,7 @@ setPosts([newPost, ...posts])
     }
 
     //post silme
+    
 
     //post güncelleme
 
