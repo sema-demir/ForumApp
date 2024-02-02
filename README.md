@@ -23,3 +23,8 @@ This project is a forum application developed using various libraries such as Re
 - [axios](https://axios-http.com/)
 - [moment](https://momentjs.com/)
 - [tailwindcss](https://tailwindcss.com/)
+
+
+<h3>Screenshot</h3>
+
+![](flow.gif)
